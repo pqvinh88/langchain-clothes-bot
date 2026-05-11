@@ -7,7 +7,7 @@ This document tracks the backend (BE) stages, libraries, and advanced optimizati
 ## 🛠 Progress Tracker
 - [x] **Stage 1**: Intent Routing (Agentic)
 - [x] **Stage 2**: Semantic Search (ChromaDB)
-- [ ] **Stage 2.1**: Hybrid Search (BM25 + Semantic)
+- [x] **Stage 2.1**: Hybrid Search (BM25 + Semantic)
 - [ ] **Stage 2.2**: Re-ranking (Cohere/BGE)
 - [x] **Stage 3**: Recommendation UI (Basic)
 - [x] **Stage 3.1**: Visual Product Cards
@@ -26,7 +26,7 @@ This document tracks the backend (BE) stages, libraries, and advanced optimizati
 
 | Component | Library / Module | Advanced Technique | Status |
 | :--- | :--- | :--- | :--- |
-| **Agent Core** | `AgentExecutor` | **create_openai_tools_agent** | ✅ |
+| **Agent Core** | `LangGraph` | **create_react_agent** | ✅ |
 | **User Profile** | `Pydantic` | **Context Injection** | ⏳ |
 | **Session Memory** | `Redis` | **TTL Management** | ⏳ (using RAM) |
 
@@ -38,7 +38,7 @@ This document tracks the backend (BE) stages, libraries, and advanced optimizati
 
 | Component | Library / Module | Advanced Technique | Status |
 | :--- | :--- | :--- | :--- |
-| **Retriever** | `EnsembleRetriever` | **Hybrid Search** | ⏳ |
+| **Retriever** | `EnsembleRetriever` | **Hybrid Search** | ✅ |
 | **Vector Store** | `ChromaDB` | **Semantic Search** | ✅ |
 | **Refinement** | `CohereRerank` | **Re-ranking** | ⏳ |
 

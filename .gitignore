@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+chroma_db/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+assets/*.png

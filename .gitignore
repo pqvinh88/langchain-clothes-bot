@@ -15,7 +15,7 @@ instance/
 htmlcov/
 
 # Database
-chroma_db/
+# chroma_db/
 
 # Streamlit
 .streamlit/
@@ -25,4 +25,4 @@ chroma_db/
 Thumbs.db
 
 # Project specific
-assets/*.png
+# assets/*.png
